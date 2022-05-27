@@ -186,7 +186,7 @@ def run() :
         elif sel_menu ==4 : # 연락처 수정 
             clearConsole()
             name = input('수정할 이름 입력 > ')
-            #수정 기능 추가
+            #수정  추가
             editContact(contacts, name)
             input('계속하려면 아무키나 누르세요. > ')
             clearConsole()
